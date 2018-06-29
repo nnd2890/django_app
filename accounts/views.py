@@ -6,4 +6,4 @@ def home(request):
     name = "Ngoc Dai"
 
     args = {'myName':name, 'numbers':numbers}
-    return render(request, 'accounts/login.html', args)
+    return render(request, 'accounts/home.html', args)
